@@ -1,9 +1,4 @@
-=======
-Astropy
-=======
-
-.. image:: https://img.shields.io/pypi/v/astropy.svg
-    :target: https://pypi.python.org/pypi/astropy
+#Astropy
 
 Astropy (http://www.astropy.org) 是一个包含执行天文学和天体物理学所需的大部分核心功能和一些常用工具的Python软件包.
 

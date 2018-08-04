@@ -1,11 +1,11 @@
 ************
-Installation
+安装
 ************
 
-Requirements
+要求
 ============
 
-Astropy has the following strict requirements:
+Astropy 安装必须有的要求:
 
 - `Python <https://www.python.org/>`_ 3.5 or 3.6
 
@@ -13,26 +13,22 @@ Astropy has the following strict requirements:
 
 - `pytest`_ 3.1 or later
 
-Astropy also depends on other packages for optional features:
+Astropy 还依赖于其他包, 选择性安装:
 
-- `scipy`_: To power a variety of features in several modules.
+- `scipy`_: 为Astropy的多个模块提供强力支持.
 
-- `h5py <http://www.h5py.org/>`_: To read/write
-  :class:`~astropy.table.Table` objects from/to HDF5 files.
+- `h5py <http://www.h5py.org/>`_: 从HDF5文件中读，或向HDF5写 :class:`~astropy.table.Table` 对象.
 
 - `BeautifulSoup <https://www.crummy.com/software/BeautifulSoup/>`_: To read
   :class:`~astropy.table.table.Table` objects from HTML files.
 
-- `bleach <https://bleach.readthedocs.io/>`_: Used to sanitize text when
-  disabling HTML escaping in the :class:`~astropy.table.Table` HTML writer.
+- `bleach <https://bleach.readthedocs.io/>`_: 在 :class:`~astropy.table.Table` HTML编写器中禁用HTML定义时, 用于清理文本.
 
-- `PyYAML <http://pyyaml.org>`_: To read/write
-  :class:`~astropy.table.Table` objects from/to the Enhanced CSV ASCII table format.
+- `PyYAML <http://pyyaml.org>`_: 读/写 :class:`~astropy.table.Table` 增强型CSV ASCII表格.
 
-- `xmllint <http://www.xmlsoft.org/>`_: To validate VOTABLE XML files.
+- `xmllint <http://www.xmlsoft.org/>`_: 验证VOTABLE XML文件.
 
-- `pandas <http://pandas.pydata.org/>`_: To read/write
-  :class:`~astropy.table.Table` objects from/to pandas DataFrame objects.
+- `pandas <http://pandas.pydata.org/>`_: 将 :class:`~astropy.table.Table` 对象读/写成pandas中的DataFrame对象.
 
 - `bintrees <https://pypi.python.org/pypi/bintrees>`_ for faster ``FastRBT`` and
   ``FastBST`` indexing engines with ``Table``, although these will still be

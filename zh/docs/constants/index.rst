@@ -1,28 +1,25 @@
 .. _astropy-constants:
 
 *******************************
-Constants (`astropy.constants`)
+常量 (`astropy.constants`)
 *******************************
 
 .. currentmodule:: astropy.constants
 
-Introduction
+简介
 ============
 
-`astropy.constants` contains a number of physical constants useful in
-Astronomy. Constants are `~astropy.units.Quantity` objects with
-additional meta-data describing their provenance and uncertainties.
+`astropy.constants` 包含了许多在天文学中常用的物理常数. 
+`~astropy.units.Quantity` 的对象是附带了描述其来源与性质的元数据的常量.
 
-Getting Started
+开始
 ===============
 
-To use the constants in S.I. units, you can import the constants directly from
-the `astropy.constants` sub-package::
+要使用国际单位(S.I. units)中的常量, 你可以直接从 `astropy.constants` 子包中导入常量::
 
     >>> from astropy.constants import G
 
-or, if you want to avoid having to explicitly import all the constants you
-need, you can simply do:
+或者, 如果你想避免显式导入你需要的所有常量,你可以直接:
 
     >>> from astropy import constants as const
 

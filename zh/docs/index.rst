@@ -13,7 +13,7 @@
     </style>
 
 #####################
-Astropy Documentation
+Astropy 文档
 #####################
 
 .. |logo_svg| image:: _static/astropy_banner.svg
@@ -28,17 +28,14 @@ Astropy Documentation
 
     .. image:: _static/astropy_logo.pdf
 
-The ``astropy`` package contains key functionality and common tools needed for
-performing astronomy and astrophysics with Python.  It is at the core of the
-`Astropy Project <http://www.astropy.org/about.html>`_, which aims to enable
-the community to develop a robust ecosystem of `Affiliated Packages
-<http://www.astropy.org/affiliated/index.html>`_ covering a broad range of
-needs for astronomical research, data processing, and data analysis.
+``astropy`` 包含了用Python实现的实行天文学和天体物理学所需的关键功能与常用工具.
+
+它是 `Astropy项目 <http://www.astropy.org/about.html>`_ 的核心, 旨在使社区能够建立一个鲁棒的 `附属包 <http://www.astropy.org/affiliated/index.html>`_ 系统, 满足天文研究, 数据处理和数据分析的需求.
 
 .. _getting-started:
 
 ***************
-Getting Started
+入门
 ***************
 
 .. toctree::
@@ -56,10 +53,10 @@ Getting Started
 .. _user-docs:
 
 ******************
-User Documentation
+用户文档
 ******************
 
-Data structures and transformations
+数据结构与转换
 -----------------------------------
 
 .. toctree::
@@ -74,7 +71,7 @@ Data structures and transformations
    wcs/index
    modeling/index
 
-Files, I/O, and Communication
+文件, I/O, 和交互
 -----------------------------
 
 .. toctree::
@@ -87,7 +84,7 @@ Files, I/O, and Communication
    io/misc
    samp/index
 
-Computations and utilities
+计算与作用
 --------------------------
 
 .. toctree::
@@ -98,7 +95,7 @@ Computations and utilities
    visualization/index
    stats/index
 
-Nuts and bolts
+核心与部件
 --------------
 
 .. toctree::
@@ -115,13 +112,11 @@ Nuts and bolts
 .. _developer-docs:
 
 =======================
-Developer Documentation
+开发者文档
 =======================
 
-The developer documentation contains instructions for how to contribute to
-Astropy or affiliated packages, as well as coding, documentation, and
-testing guidelines. For the guiding vision of this process and the project
-as a whole, see :doc:`development/vision`.
+开发人员文档包含了关于如何为Astropy及其附属软件包做出贡献的说明, 以及其编码, 文档和测试指南.
+对于开发过程与整个项目, 参见 :doc:`development/vision`.
 
 .. toctree::
    :maxdepth: 1
@@ -139,14 +134,12 @@ as a whole, see :doc:`development/vision`.
    development/astropy-package-template
    changelog
 
-There are some additional tools, mostly of use for maintainers, in the
-`astropy/astropy-procedures repository
-<https://github.com/astropy/astropy-procedures>`__.
+还有一些维护者使用的工具, 在常用天文Python包建议 <https://github.com/astropy/astropy-procedures>`__ 中.
 
 .. _project-details:
 
 ***************
-Project details
+项目详情
 ***************
 
 .. toctree::
@@ -159,7 +152,7 @@ Project details
    license
 
 *****
-Index
+索引
 *****
 
 * :ref:`genindex`
